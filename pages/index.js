@@ -34,7 +34,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/index.module.css";
-import blogdata from "./alldata";
+import blogdata from "../AllData/alldata";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";

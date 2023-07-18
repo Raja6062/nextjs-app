@@ -1,5 +1,5 @@
 import styles from '../styles/index.module.css'
-import blogdata from './alldata'
+import blogdata from '../AllData/alldata'
 
 export const getStaticPaths = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
