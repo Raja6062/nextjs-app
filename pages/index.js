@@ -70,7 +70,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const index = ({ blogdata }) => {
+const Index = ({ blogdata }) => {
   const [show, setShow] = useState(false);
   const [formdata, setFormdata] = useState({
     title: "",
@@ -222,5 +222,5 @@ const index = ({ blogdata }) => {
   );
 };
 
-export default index;
+export default Index;
 
